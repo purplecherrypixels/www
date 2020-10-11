@@ -19,5 +19,9 @@ module.exports = {
     extend: {},
   },
   variants: {},
-  plugins: [require("@tailwindcss/typography")],
+  plugins: [
+    require("postcss-100vh-fix"),
+    require("postcss-viewport-height-correction"),
+    require("@tailwindcss/typography"),
+  ],
 };
