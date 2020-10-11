@@ -13,6 +13,9 @@ module.exports = {
   },
   purge: [],
   theme: {
+    fontFamily: {
+      mono: ["VT323", "mono"],
+    },
     extend: {},
   },
   variants: {},
