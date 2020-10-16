@@ -22,6 +22,7 @@ module.exports = {
   theme: {
     fontFamily: {
       mono: ["VT323", "mono"],
+      sans: ["Inter var", ...defaultTheme.fontFamily.sans],
     },
     extend: {},
   },

@@ -32,7 +32,10 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head lang="en" />
+        <Head lang="de">
+          {/* TODO: local download of font */}
+          <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+        </Head>
         <body>
           <Main />
           <NextScript />
