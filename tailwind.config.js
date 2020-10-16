@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   future: {
     removeDeprecatedGapUtilities: true,
@@ -27,6 +29,7 @@ module.exports = {
   plugins: [
     require("postcss-100vh-fix"),
     require("postcss-viewport-height-correction"),
+    require("@tailwindcss/ui"),
     require("@tailwindcss/typography"),
   ],
 };
