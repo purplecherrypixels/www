@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title key="title">Coming soon | purplecherrypixels</title>
       </Head>
-      <div className="bg-gray-800 ">
+      <div className="font-sans bg-gray-800">
         <div className="flex flex-col items-center justify-between min-h-screen">
           <Header />
           <div>
