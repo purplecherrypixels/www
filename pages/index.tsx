@@ -1,8 +1,9 @@
 import Head from "next/head";
 import React from "react";
-import Footer from "../components/Footer";
-import Team from "../components/Team";
 import Header from "../components/Header";
+import Team from "../components/Team";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
         <div className="flex flex-col items-center justify-between min-h-screen">
           <Header />
           <Team />
-          <div></div>
+          <Contact />
         </div>
         <Footer />
       </div>
