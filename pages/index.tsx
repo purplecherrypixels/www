@@ -1,7 +1,9 @@
 import Head from "next/head";
 import React from "react";
-import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Team from "../components/Team";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -9,14 +11,11 @@ export default function Home() {
       <Head>
         <title key="title">Coming soon | purplecherrypixels</title>
       </Head>
-      <div className="font-sans bg-gray-800">
+      <div className="font-sans bg-gray-900">
         <div className="flex flex-col items-center justify-between min-h-screen">
           <Header />
-          <div>
-            <img src="img/cherry.png" className="h-32 m-8" />
-            <h1 className="font-mono text-2xl text-white">Coming soon</h1>
-          </div>
-          <div></div>
+          <Team />
+          <Contact />
         </div>
         <Footer />
       </div>
